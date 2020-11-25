@@ -1,0 +1,89 @@
+/* style sample 1 */
+.container-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+select > option {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.list-sort-btn > li > a, 
+.list-sort-btn > li > a:hover, 
+.list-sort-btn > li > a:active {
+    color: #333;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+.content {
+    text-align: center;
+    margin: 10px;
+}     
+
+.btn.d-block {
+    width: 100%;
+}
+
+.btn.disabled, .btn[disabled], .btn.disabled, .btn[disabled]:hover, .btn.disabled, .btn[disabled]:focus {
+    cursor: not-allowed !important;
+    background: #a2a2a2 !important;
+    color: #eee !important;
+    visibility: visible;
+    opacity: 0.4;
+}
+
+.btn-default {
+    color: #5e5e5e !important;
+    background-color: #ffffff !important;
+    border: 1px solid #ddd !important;
+}
+
+.btn-selectgroup>button:not(:first-child) {
+    margin-top: 10px;
+}
+
+.w8 {
+    width: 8%;
+}
+
+.w17 {
+    width: 17%;
+}
+
+.w37 {
+    width: 37%;
+}
+
+.listbox {
+    width: 100%;
+    height: 280px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid #999;
+}
+
+.listbox > option {
+    padding: 5px 8px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.select-control>option {
+	padding: 5px;
+}
+
+.select-control>option:hover {
+	background: #f0f0f0;
+}
+
+.select-control>option:checked {
+	background: linear-gradient(0,#d9edf7,#d9edf7);
+	font-weight: 700;
+}
+
+.select-control>option {
+	border-bottom: 1px solid #ccc;
+}
